@@ -4,7 +4,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Spring - Live updates</title>
-<link rel="stylesheet" href="libs/semantic-ui/build/packaged/css/semantic.min.css" />
+<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.3.8/angular.min.js"></script>
+<link rel="stylesheet" href="http://cdn.bootcss.com/semantic-ui/1.7.3/semantic.min.css" />
 <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body ng-app="myApp">
@@ -54,11 +55,10 @@
 		</form>
 	</div>
 
-	<script type="text/javascript" src="libs/angular/angular.min.js"></script>
-	<script type="text/javascript" src="libs/angular-resource/angular-resource.min.js"></script>
-	<script type="text/javascript" src="libs/sockjs/sockjs.min.js"></script>
-	<script type="text/javascript" src="libs/stomp-websocket/lib/stomp.min.js"></script>
-	<script type="text/javascript" src="libs/showdown/compressed/showdown.js"></script>
+	<script type="text/javascript" src="http://cdn.bootcss.com/angular.js/1.3.8/angular-resource.min.js"></script>
+	<script type="text/javascript" src="http://cdn.bootcss.com/sockjs-client/0.3.4/sockjs.min.js"></script>
+	<script type="text/javascript" src="http://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+	<script type="text/javascript" src="http://cdn.bootcss.com/showdown/0.3.1/showdown.min.js"></script>
 	<script type="text/javascript" src="app/app.js"></script>
 	<script type="text/javascript" src="app/services.js"></script>
 	<script type="text/javascript" src="app/controllers.js"></script>
